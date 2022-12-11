@@ -3,7 +3,7 @@
 ## Contacts
 - GitHub: Svitlanka-K
 - E-mail: <Svitlanka.K@i.ua>
-## About me
+## About Me
 I am currently working as a design engineer, but I want to change my profession, so I came to study JavaScript / Front-end at RS School courses.
 ## Education
 Dnipro National University of Railway Transport (DIIT)
@@ -41,4 +41,4 @@ Dnipro National University of Railway Transport (DIIT)
 ## Languages
 - Russian – native
 - Ukrainian – native
-- English – B1
+- English - B1
