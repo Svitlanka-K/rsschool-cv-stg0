@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurriculumVitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container1">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+      <div class="box">
+        <h1 class="title">Kondratiuk Svitlana</h1>
+       </div>
+    </header>
+  </div>
+  <main>
+    <div class="info">
+      <div class="photo">
+        <img class="photo" src="photo.png" alt="photo">
+      </div>
+      <div class="contacts" id="contacts">
+        <h2 class="rubric">Contacts</h2>
+        <ul class="list_cont">
+          <li class="link">GitHub: Svitlanka-K</li>
+          <li class="link">E-mail: Svitlanka.K@i.ua</li>
+        </ul>
+      </div>
+    </div>
+     <div class="container">
+      <div class="box1">
+        <div class="about" id="about">
+          <h2 class="rubric">About me</h2>
+          <p class="text">I'm currently working as a design engineer, but I want to get a second profession, so I came to study JavaScript/Front-end at RS School courses</p>
+        </div>
+        <div class="education">
+          <h2 class="rubric">Education</h2>
+          <p class="text">Dnipro National University of Railway Transport named after academician V. Lazaryan</p>
+        </div>
+        <div class="skills" id="skills">
+          <h2 class="rubric">Skills</h2>
+          <ul class="list">
+            <li class="text">HTML</li>
+            <li class="text">CSS</li>
+            <li class="text">Git</li>
+            <li class="text">SolidWorks</li>
+            <li class="text">AutoСAD</li>
+            <li class="text">Adobe Photoshop</li>
+            <li class="text">Microsoft Office</li>
+          </ul>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="code" id="code">
+          <h2 class="rubric">Code example</h2>
+          <pre class="text-exp">
+            var rows = prompt("How many rows?");
+            var cols = prompt("How many columns?");
+            if(rows == "" || rows == null)
+              rows = 10;
+            if(cols== "" || cols== null)
+              cols = 10;
+            createTable(rows, cols);
+          </pre>
+        </div>
+        <div class="languages" id="languages">
+          <h2 class="rubric">Languages</h2>
+          <ul class="list">
+            <li class="text">Russian – C2</li>
+            <li class="text">Ukrainian – C2</li>
+            <li class="text">English – B1</li>
+          </ul>
+        </div>
+        <div class="projects" id="projects">
+          <h2 class="rubric">Projects</h2>
+          <a class="link" href="https://github.com/Svitlanka-K/rsschool-cv/blob/rsschool-cv-html/cv.md"> CurriculumVitae</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="foot-wr">
+      <p class="date">2022</p>
+      <a href="https://github.com/Svitlanka-K"><img class="git-icon" src="git-logo.png" alt="git icon"></a>
+      <a href="https://rs.school"><img class="rss-icon" src="logo-rsschool.png" alt="rss icon"></a>
+    </div>
+  </footer>
+</body>
+</html>
